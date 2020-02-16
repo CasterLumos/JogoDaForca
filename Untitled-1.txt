@@ -1,0 +1,35 @@
+
+
+
+
+TEMA
+---->SORTEIA PALAVRA
+---------->EMCRIPTAR PALAVRA
+------------------>VERIFICAR SE HÁ ESPAÇOS VAZIOS
+(1){
+    SE NÃO POSSUI ESPAÇOS VAZIOS
+    -------------->GANHOU O JOGO
+}
+(2){
+    SE POSSUI, AINDA RESTA JOGO
+-------------------------->SOLICITAR LETRA
+--------------------------------->VERIFICAR LETRA
+(1){
+    SE POSSUI LETRA
+    --------> DECRIPTAR A LETRA NA POSIÇÃO
+    --------> RETORNAR PARA LINHA 8
+}
+(2){
+    SE NÃO POSSUI
+    ----------> RETORNAR PARA LINHA 8
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+#game {
+    margin-top: 10%;
+    position: relative;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+    font-size: 50px;
+}
+
+.tab {
+    padding: 5%;
+    margin: 0 auto;
+    width: 50%;
+    height: max-content;
+    border-style: solid;
+}
+
+.palavra {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+input[type=text] {
+    width: 150px;
+}
+
+@media (max-width: 577px) {
+    #game {
+        margin-top: 0px;
+        padding: 10px;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .tab {
+        padding: 20%;
+    }
+    .titulo {
+        font-size: 40px;
+    }
+}

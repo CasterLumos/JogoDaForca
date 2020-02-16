@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+        <div class="titulo">
+            <p>Jogo da Forca</p>
+        </div>
+        <div class="tab">
+            <div class="palavra" id="palavra">
+                O jogo não iniciou, aperte f5!
+            </div>
+            <div class="entrada">
+                <input type="text" id="letra" name="letra" maxlength="1" placeholder="Digite aqui uma Letra">
+                <button type="submit" onclick="enviar()">
+                Enviar
+                </button>
+            </div>
+        </div>
+        <div id="letras">Letras Digitadas: </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
