@@ -1,0 +1,1 @@
+Jogo da forca desenvolvido em HTML, CSS e Javascript. 
